@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://mediaconvert.net/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mediaconvert.net/pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediaconvert.net/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediaconvert.net/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediaconvert.net/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mediaconvert.net/ar/"/>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://mediaconvert.net/pt/converter</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mediaconvert.net/pt/converter"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediaconvert.net/en/converter"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediaconvert.net/es/converter"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediaconvert.net/de/converter"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mediaconvert.net/ar/converter"/>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://mediaconvert.net/pt/termos</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mediaconvert.net/pt/termos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediaconvert.net/en/termos"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediaconvert.net/es/termos"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediaconvert.net/de/termos"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mediaconvert.net/ar/termos"/>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://mediaconvert.net/pt/privacidade</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mediaconvert.net/pt/privacidade"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mediaconvert.net/en/privacidade"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mediaconvert.net/es/privacidade"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mediaconvert.net/de/privacidade"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mediaconvert.net/ar/privacidade"/>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

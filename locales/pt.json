@@ -1,0 +1,58 @@
+{
+    "header": {
+        "home": "Início",
+        "how_it_works": "Como Funciona",
+        "formats": "Formatos",
+        "get_started": "Grátis"
+    },
+    "hero": {
+        "badge": "100% Gratuito & Seguro",
+        "title": "Converta suas fotos",
+        "title_highlight": "sem complicação.",
+        "subtitle": "Transforme arquivos em JPG, PNG, WEBP e TIFF instantaneamente. Mantenha a qualidade máxima com a ferramenta mais moderna da web.",
+        "cta_main": "Acessar Conversor Grátis",
+        "cta_sec": "Ver Formatos"
+    },
+    "converter": {
+        "step1_title": "Converter imagem para",
+        "step1_subtitle": "Rápido, seguro e com qualidade preservada.",
+        "label_convert_to": "Converter para:",
+        "btn_start": "Iniciar Conversão",
+        "loading_title": "Otimizando sua imagem...",
+        "loading_subtitle": "Isso pode levar alguns segundos dependendo do tamanho do arquivo.",
+        "success_title": "Sucesso!",
+        "success_subtitle": "Sua imagem está pronta para ser usada.",
+        "btn_download": "Baixar Arquivo",
+        "btn_new": "Nova Conversão",
+        "upload_label": "Escolher Foto",
+        "upload_hint": "ou arraste e solte"
+    },
+    "seo": {
+        "features_title": "Por que usar o MediaConvert.net?",
+        "feature_1_title": "Privacidade Total",
+        "feature_1_text": "Nossos servidores eliminam os seus arquivos automaticamente após a conversão. Os seus dados nunca são guardados permanentemente.",
+        "feature_2_title": "Velocidade Extrema",
+        "feature_2_text": "Utilizamos tecnologia de ponta para garantir que as suas fotos sejam processadas em milissegundos.",
+        "faq_title": "Perguntas Frequentes",
+        "faq_1_q": "É realmente gratuito?",
+        "faq_1_a": "Sim, o MediaConvert.net é 100% gratuito. Não há cobranças ocultas nem limites abusivos.",
+        "faq_2_q": "Quais formatos são suportados?",
+        "faq_2_a": "Suportamos JPG, PNG, WEBP, TIFF, GIF, BMP e ICO. Utilizamos ImageMagick para garantir a melhor fidelidade de cor."
+    },
+    "termos": {
+        "title": "Termos de Uso",
+        "content": "<h3>1. Aceitação dos Termos</h3><p>Ao utilizar o MediaConvert.net, você concorda em cumprir estes termos de serviço. Nossa ferramenta foi projetada para conversão de imagens de forma ética e legal.</p><h3>2. Responsabilidade do Usuário</h3><p>O usuário é o único responsável pelos arquivos enviados. Não é permitido o uso da ferramenta para processar conteúdo ilícito ou que viole direitos autorais de terceiros.</p><h3>3. Isenção de Garantias</h3><p>O serviço é fornecido 'como está'. Embora utilizemos tecnologia de alta fidelidade, não garantimos que o resultado da conversão atenderá perfeitamente às expectativas específicas de cada projeto profissional.</p><h3>4. Limpeza de Dados</h3><p>Para sua segurança, todos os arquivos são deletados de nossos servidores 30 minutos após o upload via rotina automatizada.</p>"
+    },
+    "privacidade": {
+        "title": "Política de Privacidade",
+        "content": "<h3>1. Compromisso com a Privacidade</h3><p>A privacidade é o pilar do MediaConvert.net. Não coletamos, visualizamos ou compartilhamos as imagens enviadas pelos usuários.</p><h3>2. Processamento de Dados</h3><p>O processamento ocorre de forma temporária. Utilizamos a biblioteca ImageMagick para realizar a conversão técnica e o arquivo resultante é disponibilizado apenas para o usuário que realizou o upload.</p><h3>3. Cookies e Logs</h3><p>Utilizamos cookies estritamente necessários para manter sua preferência de idioma e logs de servidor anônimos para monitorar a saúde do sistema e prevenir abusos (DDoS).</p><h3>4. LGPD</h3><p>Em conformidade com a Lei Geral de Proteção de Dados, garantimos que nenhum dado pessoal sensível é armazenado em nossas bases de dados.</p>"
+    },
+    "footer": {
+        "description": "A ferramenta mais rápida e segura para converter as suas fotos online. Processamento profissional e privacidade garantida.",
+        "tools_title": "Ferramentas",
+        "legal_title": "Legal",
+        "terms": "Termos de Uso",
+        "privacy": "Privacidade",
+        "rights": "Todos os direitos reservados."
+    }
+}

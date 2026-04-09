@@ -1,0 +1,58 @@
+{
+    "header": {
+        "home": "Startseite",
+        "how_it_works": "So funktioniert es",
+        "formats": "Formate",
+        "get_started": "Kostenlos"
+    },
+    "hero": {
+        "badge": "100% Kostenlos & Sicher",
+        "title": "Bilder konvertieren",
+        "title_highlight": "ohne Aufwand.",
+        "subtitle": "Wandeln Sie Dateien sofort in JPG, PNG, ICO, BMP, WEBP und TIFF um. Erhalten Sie maximale Qualität mit dem modernsten Tool im Web.",
+        "cta_main": "Zum kostenlosen Konverter",
+        "cta_sec": "Formate anzeigen"
+    },
+    "converter": {
+        "step1_title": "Bild konvertieren in",
+        "step1_subtitle": "Schnell, sicher und qualitätsschonend.",
+        "label_convert_to": "Konvertieren in:",
+        "btn_start": "Konvertierung starten",
+        "loading_title": "Bild wird optimiert...",
+        "loading_subtitle": "Dies kann je nach Dateigröße einige Sekunden dauern.",
+        "success_title": "Erfolg!",
+        "success_subtitle": "Ihr Bild ist bereit zur Verwendung.",
+        "btn_download": "Datei herunterladen",
+        "btn_new": "Neue Konvertierung",
+        "upload_label": "Foto auswählen",
+        "upload_hint": "oder per Drag & Drop hierher ziehen"
+    },
+    "seo": {
+        "features_title": "Warum MediaConvert.net nutzen?",
+        "feature_1_title": "Volle Privatsphäre",
+        "feature_1_text": "Unsere Server löschen Ihre Dateien automatisch nach der Konvertierung. Ihre Daten werden niemals dauerhaft gespeichert.",
+        "feature_2_title": "Extreme Geschwindigkeit",
+        "feature_2_text": "Wir nutzen modernste Technologie, um sicherzustellen, dass Ihre Fotos in Millisekunden verarbeitet werden.",
+        "faq_title": "Häufig gestellte Fragen",
+        "faq_1_q": "Ist es wirklich kostenlos?",
+        "faq_1_a": "Ja, MediaConvert.net ist zu 100% kostenlos. Es gibt keine versteckten Gebühren oder missbräuchlichen Limits.",
+        "faq_2_q": "Welche Formate werden unterstützt?",
+        "faq_2_a": "Wir unterstützen JPG, PNG, WEBP, TIFF, GIF, BMP und ICO. Wir verwenden ImageMagick für beste Farbtreue."
+    },
+    "termos": {
+        "title": "Nutzungsbedingungen",
+        "content": "<h3>1. Akzeptanz der Bedingungen</h3><p>Durch die Nutzung von MediaConvert.net erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Unser Tool ist für die ethische und legale Bildkonvertierung konzipiert.</p><h3>2. Nutzerverantwortung</h3><p>Der Nutzer trägt die alleinige Verantwortung für die hochgeladenen Dateien. Die Nutzung des Tools zur Verarbeitung illegaler Inhalte oder zur Verletzung von Urheberrechten Dritter ist untersagt.</p><h3>3. Gewährleistungsausschluss</h3><p>Der Dienst wird 'wie besehen' bereitgestellt. Obwohl wir High-Fidelity-Technologie einsetzen, garantieren wir nicht, dass das Ergebnis perfekt den spezifischen Anforderungen jedes professionellen Projekts entspricht.</p><h3>4. Datenbereinigung</h3><p>Zu Ihrer Sicherheit werden alle Dateien 30 Minuten nach dem Upload durch eine automatisierte Routine von unseren Servern gelöscht.</p>"
+    },
+    "privacidade": {
+        "title": "Datenschutzerklärung",
+        "content": "<h3>1. Verpflichtung zum Datenschutz</h3><p>Datenschutz ist die Säule von MediaConvert.net. Wir sammeln, sichten oder teilen keine von Nutzern hochgeladenen Bilder.</p><h3>2. Datenverarbeitung</h3><p>Die Verarbeitung erfolgt temporär. Wir verwenden die ImageMagick-Bibliothek für die technische Konvertierung, und die Ergebnisdatei ist nur für den Nutzer zugänglich, der den Upload durchgeführt hat.</p><h3>3. Cookies und Logs</h3><p>Wir verwenden unbedingt erforderliche Cookies zur Speicherung Ihrer Sprachpräferenz sowie anonyme Server-Logs zur Überwachung der Systemstabilität und zur Missbrauchsprävention (DDoS).</p><h3>4. DSGVO</h3><p>In Übereinstimmung mit der Datenschutz-Grundverordnung garantieren wir, dass keine sensiblen personenbezogenen Daten in unseren Datenbanken gespeichert werden.</p>"
+    },
+    "footer": {
+        "description": "Das schnellste und sicherste Tool zur Online-Konvertierung Ihrer Fotos. Professionelle Verarbeitung und garantierter Datenschutz.",
+        "tools_title": "Werkzeuge",
+        "legal_title": "Rechtliches",
+        "terms": "Nutzungsbedingungen",
+        "privacy": "Datenschutz",
+        "rights": "Alle Rechte vorbehalten."
+    }
+}
