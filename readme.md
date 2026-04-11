@@ -94,7 +94,7 @@ Para configurar o MediaConvert.net localmente, siga estes passos:
 - `pages/termos.php`: Termos de Uso.
 
 ### Backend & Scripts
-- `api/process.php`: Lógica de conversão de imagem.
+- `pages/engine/process.php`: Lógica de conversão de imagem.
 - `scripts/cleanup.php`: Rotina de limpeza do diretório de uploads.
 
 ## Privacidade e Manipulação de Dados
