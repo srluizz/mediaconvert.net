@@ -25,7 +25,8 @@
         "btn_download": "تحميل الملف",
         "btn_new": "تحويل جديد",
         "upload_label": "اختر صورة",
-        "upload_hint": "أو اسحب وأفلت هنا"
+        "upload_hint": "أو اسحب وأفلت هنا",
+        "bulk-download-container": "تحميل جميع الصور"
     },
     "seo": {
         "features_title": "لماذا تستخدم MediaConvert.net؟",

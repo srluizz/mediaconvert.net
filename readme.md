@@ -81,17 +81,21 @@ Para configurar o MediaConvert.net localmente, siga estes passos:
 
 ## Estrutura de Arquivos
 
-- `process.php`: Gerencia a lógica de conversão de imagem usando Imagick.
 - `router.php`: Gerencia o roteamento de URL para diferentes páginas e idiomas.
 - `includes/i18n.php`: Fornece funções de internacionalização.
 - `locales/`: Contém arquivos JSON para as traduções de diferentes idiomas.
 - `uploads/`: Diretório temporário para arquivos enviados e convertidos.
 - `components/`: Componentes de UI reutilizáveis (ex: cabeçalho, rodapé).
-- `converter.php`: Página frontend para a interface de conversão de imagem.
-- `index.php`: A página inicial principal.
-- `privacidade.php`: Página de Política de Privacidade.
-- `termos.php`: Página de Termos de Uso.
-- `cleanup.php`: Script para limpeza de arquivos antigos do diretório `uploads`.
+
+### Páginas (`/pages`)
+- `pages/index.php`: A página inicial principal.
+- `pages/converter.php`: Interface de conversão.
+- `pages/privacidade.php`: Política de Privacidade.
+- `pages/termos.php`: Termos de Uso.
+
+### Backend & Scripts
+- `api/process.php`: Lógica de conversão de imagem.
+- `scripts/cleanup.php`: Rotina de limpeza do diretório de uploads.
 
 ## Privacidade e Manipulação de Dados
 

@@ -25,7 +25,8 @@
         "btn_download": "Descargar Archivo",
         "btn_new": "Nueva Conversión",
         "upload_label": "Elegir Foto",
-        "upload_hint": "o arrastra y suelta"
+        "upload_hint": "o arrastra y suelta",
+        "bulk-download-container": "DESCARGAR TODAS LAS IMÁGENES"
     },
     "seo": {
         "features_title": "¿Por qué usar MediaConvert.net?",

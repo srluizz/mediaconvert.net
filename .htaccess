@@ -1,43 +1,13 @@
-# 1. Configurações Globais de Segurança
-Options -Indexes
-Options +FollowSymLinks
 RewriteEngine On
 RewriteBase /
 
-# 2. Segurança: Impede acesso a arquivos sensíveis
-<FilesMatch "^\.|\.(json|log|ini|sh|bak)$">
-    Order allow,deny
-    Deny from all
-</FilesMatch>
+# Redireciona /pt, /en, etc para pages/index.php mantendo o idioma na URL
+RewriteRule ^(pt|en|es|de|ar)/?$ pages/index.php?lang=$1 [L,QSA]
 
-# 3. Forçar HTTPS (Recomendado para Produção)
-# Se o seu servidor tiver SSL, descomente as duas linhas abaixo:
-# RewriteCond %{HTTPS} off
-# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Redireciona /pt/converter para pages/converter.php (se existir) ou trata via index
+RewriteRule ^(pt|en|es|de|ar)/converter$ pages/converter.php?lang=$1 [L,QSA]
 
-# 4. Redireciona de /pagina.php para /pagina (Apenas GET)
-RewriteCond %{REQUEST_METHOD} !POST
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+(.+)\.php[\s?] [NC]
-RewriteRule ^(.+)\.php$ /pt/$1 [R=301,L]
-
-# 5. Ignora arquivos e pastas que existem fisicamente (Imagens, CSS, JS)
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule ^ - [L]
-
-# 6. Regra para Idioma + Página (ex: /es/converter -> converter.php?lang=es)
-RewriteRule ^(pt|en|es|de|ar)/([a-zA-Z0-9_-]+)/?$ $2.php?lang=$1 [QSA,L]
-
-# 7. Regra para a Raiz do Idioma (ex: /en/ -> index.php?lang=en)
-RewriteRule ^(pt|en|es|de|ar)/?$ index.php?lang=$1 [QSA,L]
-
-# 8. Fallback para URLs sem idioma (Ex: /converter redireciona para /pt/converter)
+# Remove a necessidade de .php na URL
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^([a-zA-Z0-9_-]+)/?$ /pt/$1 [R=301,L]
-
-# 9. Redireciona a home vazia para o idioma padrão /pt/
-RewriteRule ^$ pt/ [R=301,L]
-
-# 10. Tratamento de Erro 404 Profissional
-# Em vez de erro feio do Apache, ele manda para o seu sistema de idiomas
-ErrorDocument 404 /pt/index
+RewriteRule ^(.*)$ $1.php [L]

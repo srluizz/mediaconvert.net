@@ -1,10 +1,10 @@
 <?php 
-    include_once 'includes/i18n.php';
+    include_once dirname(__DIR__) . '/includes/i18n.php';
 
     $pageTitle = "MediaConvert | " . __('hero.title');
     $pageDesc = __('hero.subtitle');
     
-    include 'components/header.php'; 
+    include dirname(__DIR__) . '/components/header.php'; 
 ?>
 
 <main class="flex-grow">
@@ -27,7 +27,7 @@
                     <a href="<?php echo url('converter'); ?>" class="bg-blue-600 text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-blue-700 shadow-2xl shadow-blue-200 transition transform hover:-translate-y-1">
                         <?php echo __('hero.cta_main'); ?>
                     </a>
-                    <a href="<?php echo url('#formatos'); ?>" class="bg-slate-100 text-slate-700 px-10 py-5 rounded-2xl font-bold text-lg hover:bg-slate-200 transition">
+                    <a href="#formatos" class="bg-slate-100 text-slate-700 px-10 py-5 rounded-2xl font-bold text-lg hover:bg-slate-200 transition">
                         <?php echo __('hero.cta_sec'); ?>
                     </a>
                 </div>
@@ -121,4 +121,4 @@
 
 </main>
 
-<?php include 'components/footer.php'; ?>
+<?php include dirname(__DIR__) . '/components/footer.php'; ?>

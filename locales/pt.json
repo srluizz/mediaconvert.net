@@ -9,7 +9,7 @@
         "badge": "100% Gratuito & Seguro",
         "title": "Converta suas fotos",
         "title_highlight": "sem complicação.",
-        "subtitle": "Transforme arquivos em JPG, PNG, WEBP e TIFF instantaneamente. Mantenha a qualidade máxima com a ferramenta mais moderna da web.",
+        "subtitle": "Transforme arquivos em JPG, PNG, WEBP, ICO, BMP e TIFF instantaneamente. Mantenha a qualidade máxima com a ferramenta mais moderna da web.",
         "cta_main": "Acessar Conversor Grátis",
         "cta_sec": "Ver Formatos"
     },
@@ -25,7 +25,8 @@
         "btn_download": "Baixar Arquivo",
         "btn_new": "Nova Conversão",
         "upload_label": "Escolher Foto",
-        "upload_hint": "ou arraste e solte"
+        "upload_hint": "ou arraste e solte",
+        "bulk-download-container": "BAIXAR TODAS AS IMAGENS"
     },
     "seo": {
         "features_title": "Por que usar o MediaConvert.net?",
