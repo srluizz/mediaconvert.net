@@ -248,7 +248,7 @@
         });
         formData.append('format', selectedFormat);
 
-        fetch('../engine/process.php', {
+        fetch('engine/process.php', {
             method: 'POST',
             body: formData
         })
